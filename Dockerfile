@@ -1,4 +1,4 @@
-FROM alpine:glibc
+FROM alpine-glibc:latest
 MAINTAINER Darebeat <fengwei2010@126.com>
 ADD apks/jre /opt/jre
 ENV JAVA_HOME=/opt/jre
